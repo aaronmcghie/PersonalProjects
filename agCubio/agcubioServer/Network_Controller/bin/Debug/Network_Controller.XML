@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Network_Controller</name>
+    </assembly>
+    <members>
+        <member name="T:Network_Controller.StateObject">
+            <summary>
+            class to remember what to do when data comes in through the network
+            </summary>
+        </member>
+        <member name="F:Network_Controller.StateObject.isConnection">
+            <summary>
+            Tells if the connection is the first connection
+            </summary>
+        </member>
+        <member name="F:Network_Controller.StateObject.socket">
+            <summary>
+            Stores the socket used for networking
+            </summary>
+        </member>
+        <member name="F:Network_Controller.StateObject.BufferSize">
+            <summary>
+            Buffer size
+            </summary>
+        </member>
+        <member name="F:Network_Controller.StateObject.buffer">
+            <summary>
+            bool buffer
+            </summary>
+        </member>
+        <member name="F:Network_Controller.StateObject.cbFunction">
+            <summary>
+            delegate that determines what to do once it recieves input from the server
+            </summary>
+        </member>
+        <member name="F:Network_Controller.StateObject.sb">
+            <summary>
+            stores leftover info
+            </summary>
+        </member>
+        <member name="T:Network_Controller.Controller">
+            <summary>
+            Group of static methods to aid in networking
+            </summary>
+        </member>
+        <member name="M:Network_Controller.Controller.Connect_to_Server(System.Action{Network_Controller.StateObject},System.String)">
+            <summary>
+            attempt to connect to the server via a provided hostname. It save the callback function
+             (in a state object) for use when data arrives. It also open a socket and then use the BeginConnect method
+            </summary>
+            <param name="cbFunction">a callback function called when data arrives</param>
+            <param name="hostname">hostname to connect to</param>
+            <returns></returns>
+        </member>
+        <member name="M:Network_Controller.Controller.Connected_to_Server(System.IAsyncResult)">
+            <summary>
+            called once a successful connection to server is made
+            </summary>
+            <param name="ar"></param>
+        </member>
+        <member name="M:Network_Controller.Controller.ReceiveCallback(System.IAsyncResult)">
+            <summary>
+            method that is called once the server sends back data
+            </summary>
+            <param name="ar"></param>
+        </member>
+        <member name="M:Network_Controller.Controller.i_want_more_data(Network_Controller.StateObject)">
+            <summary>
+            requires more data from the server, opens connection again.
+            </summary>
+            <param name="state"></param>
+        </member>
+        <member name="M:Network_Controller.Controller.Send(System.Net.Sockets.Socket,System.String)">
+            <summary>
+            sends data to the server
+            </summary>
+            <param name="socket"></param>
+            <param name="data"></param>
+        </member>
+        <member name="M:Network_Controller.Controller.SendCallBack(System.IAsyncResult)">
+            <summary>
+            deals with what bad sends
+            </summary>
+            <param name="ar"></param>
+        </member>
+    </members>
+</doc>

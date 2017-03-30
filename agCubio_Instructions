@@ -1,0 +1,3 @@
+agCubio is a remake of the game agario I made with a couple of other students for a school assignment in C#.
+
+It is best to build this project in Visual Studio.  Run the agCubioServer first, by opening the PS7.sln file in the agCubioServer folder with Visual Studio.  Build and run the server.  Next run the client by opening the PS7.sln file in the agCubioClient folder with Visual Studio.  Build and run the client.  Enter 127.0.0.1 in the server address box to connect to the localhost server.  You can move your cube around with the mouse cursor, and press spacebar to split your cube.  It is also possible to connect to a server on another ip address and play with other players. 

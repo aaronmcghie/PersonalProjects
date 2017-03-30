@@ -1,0 +1,20 @@
+Boujee Ball was designed to be an educational application to help elementary school children learn basic physics.  The game is pretty silly, but that's because we wanted it to be fun because kids learn better when they are having fun.
+Due to some very specific requirements we were given for this project, the project is a bit of a pain to build.  It also is fairly complex, so I would prefer to demo it in person.  I have included some videos of a few of the lessons in the BBSampleVids folder if you would like to see some of it in action without having to go through the process of building it yourself.
+If you do want to build it yourself here are some instructions:
+1. The project only builds and runs properly on linux
+2. The project must be built with qtCreator
+3. Install all of these libs on your machine
+	-lX11\
+        -lxcb\
+        -ljpeg\
+        -lGL\
+        -lxcb-randr\
+        -lX11-xcb\
+        -lfreetype\
+        -lxcb-shm\
+        -lxcb-image\
+        -lxcb-util\
+4. Open the BoujeeBall.pro file in qt, and open the BBServer.pro file from the BBServer folder in qt also.
+5. Build and run the BBServer project first.
+6. Next build and run the BoujeeBall project(This can take up to 30 minutes due to qt trying to compile all of the game images into it's resources)
+7. You can create a user by writing in a new user name and password into the login screen textboxes.  You can play any level by choosing play as guest.  The Controls are explained in the first 2 lessons.

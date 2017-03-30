@@ -1,0 +1,9 @@
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Server\bin\Debug\Server.exe.config
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Server\bin\Debug\Server.exe
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Server\bin\Debug\Server.pdb
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Server\bin\Debug\Network_Controller.dll
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Server\bin\Debug\Network_Controller.pdb
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Server\bin\Debug\Network_Controller.xml
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Server\obj\Debug\Server.exe
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Server\obj\Debug\Server.pdb

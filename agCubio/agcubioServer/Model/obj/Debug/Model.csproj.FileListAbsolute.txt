@@ -1,0 +1,14 @@
+X:\CS3500\Repos\AaronYiliang2\PS7\Model\bin\Debug\Model.XML
+X:\CS3500\Repos\AaronYiliang2\PS7\Model\bin\Debug\Model.dll
+X:\CS3500\Repos\AaronYiliang2\PS7\Model\bin\Debug\Model.pdb
+X:\CS3500\Repos\AaronYiliang2\PS7\Model\bin\Debug\Newtonsoft.Json.dll
+X:\CS3500\Repos\AaronYiliang2\PS7\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+X:\CS3500\Repos\AaronYiliang2\PS7\Model\obj\Debug\Model.dll
+X:\CS3500\Repos\AaronYiliang2\PS7\Model\obj\Debug\Model.pdb
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Model\bin\Debug\Model.XML
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Model\bin\Debug\Model.dll
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Model\bin\Debug\Model.pdb
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Model\bin\Debug\Newtonsoft.Json.dll
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Model\obj\Debug\Model.dll
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Model\obj\Debug\Model.pdb

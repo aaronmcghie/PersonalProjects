@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>View</name>
+    </assembly>
+    <members>
+        <member name="M:View.clientWindow.#ctor">
+            <summary>
+            initialize new client window
+            </summary>
+        </member>
+        <member name="M:View.clientWindow.parseJson(System.String)">
+            <summary>
+            Parse String into JSON. Assumes all messages are correct
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:View.clientWindow.submitButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            When the submit button is clicked, the game starts. Shows error if there's no connection
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:View.clientWindow.startGame(System.String,System.String)">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:View.clientWindow.callbackFunction(Network_Controller.StateObject)">
+            <summary>
+            function called when data is recieved from server
+            </summary>
+            <param name="state"> the state of the existing connection</param>
+        </member>
+        <member name="M:View.clientWindow.clientWindow_Paint(System.Object,System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Paints the screen of the form. Redraws all objects as fast as possible
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:View.clientWindow.getMouse">
+            <summary>
+            Gets and sends the mouse position to the server
+            </summary>
+        </member>
+        <member name="F:View.clientWindow.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:View.clientWindow.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:View.clientWindow.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:View.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:View.Viewport">
+            <summary>
+            Class to deal with the viewport
+            </summary>
+        </member>
+        <member name="M:View.Viewport.#ctor(Model.Cube,System.Collections.Generic.List{Model.Cube})">
+            <summary>
+            initializes viewport
+            </summary>
+            <param name="cube">cube the viewport is centered on</param>
+        </member>
+        <member name="P:View.Viewport.CenterCube">
+            <summary>
+            Returns the center cube
+            </summary>
+        </member>
+        <member name="M:View.Viewport.setCenterCube(Model.Cube)">
+            <summary>
+            recalculates the viewport based on cube
+            </summary>
+            <param name="cube">centered cube</param>
+        </member>
+        <member name="P:View.Viewport.Range">
+            <summary>
+            range of the viewport
+            </summary>
+        </member>
+        <member name="M:View.Viewport.isInViewPort(Model.Cube)">
+            <summary>
+            checks if the cube is within the viewport
+            </summary>
+            <param name="cube"></param>
+            <returns></returns>
+        </member>
+        <member name="M:View.Viewport.normalizeCube(Model.Cube)">
+            <summary>
+            normalize the cube position to a 1000 scale
+            </summary>
+            <param name="input">input cube</param>
+            <returns></returns>
+        </member>
+        <member name="M:View.Viewport.reverseXY(System.Drawing.Point)">
+            <summary>
+            reverse the normalization process for mouse points
+            </summary>
+            <param name="p">normalized point from viewport</param>
+            <returns></returns>
+        </member>
+        <member name="M:View.Viewport.setDimensions">
+            <summary>
+            updates cube positions
+            </summary>
+        </member>
+        <member name="P:View.Viewport.Left">
+            <summary>
+            left of viewport
+            </summary>
+        </member>
+        <member name="P:View.Viewport.Right">
+            <summary>
+            right of viewport
+            </summary>
+        </member>
+        <member name="P:View.Viewport.Bottom">
+            <summary>
+            bottom of viewport
+            </summary>
+        </member>
+        <member name="P:View.Viewport.Top">
+            <summary>
+            top of viewport
+            </summary>
+        </member>
+        <member name="T:View.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:View.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:View.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>

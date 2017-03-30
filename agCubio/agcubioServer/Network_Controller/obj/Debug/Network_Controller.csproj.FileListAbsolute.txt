@@ -1,0 +1,14 @@
+X:\CS3500\Repos\AaronYiliang2\PS7\Network_Controller\bin\Debug\Network_Controller.XML
+X:\CS3500\Repos\AaronYiliang2\PS7\Network_Controller\bin\Debug\Network_Controller.dll
+X:\CS3500\Repos\AaronYiliang2\PS7\Network_Controller\bin\Debug\Network_Controller.pdb
+X:\CS3500\Repos\AaronYiliang2\PS7\Network_Controller\bin\Debug\Newtonsoft.Json.dll
+X:\CS3500\Repos\AaronYiliang2\PS7\Network_Controller\obj\Debug\Network_Controller.dll
+X:\CS3500\Repos\AaronYiliang2\PS7\Network_Controller\obj\Debug\Network_Controller.pdb
+X:\CS3500\Repos\AaronYiliang2\PS7\Network_Controller\obj\Debug\Network_Controller.csprojResolveAssemblyReference.cache
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Network_Controller\bin\Debug\Network_Controller.XML
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Network_Controller\bin\Debug\Network_Controller.dll
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Network_Controller\bin\Debug\Network_Controller.pdb
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Network_Controller\bin\Debug\Newtonsoft.Json.dll
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Network_Controller\obj\Debug\Network_Controller.csprojResolveAssemblyReference.cache
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Network_Controller\obj\Debug\Network_Controller.dll
+X:\CS3500\Repos\AaronDouglasAgCubio\PS7\Network_Controller\obj\Debug\Network_Controller.pdb

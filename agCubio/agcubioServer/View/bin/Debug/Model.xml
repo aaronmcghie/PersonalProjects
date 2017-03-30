@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Model</name>
+    </assembly>
+    <members>
+        <member name="T:Model.Cube">
+            <summary>
+            Class to store data necessary for cube objects
+            </summary>
+        </member>
+        <member name="M:Model.Cube.#ctor(System.Double,System.Double,System.Int32,System.Int32,System.Int32,System.Boolean,System.String,System.Double)">
+            <summary>
+            Constructor to create a new cube with necessary data
+            </summary>
+            <param name="id"></param>
+            <param name="team_id"></param>
+            <param name="cubeColor"></param>
+            <param name="name"></param>
+            <param name="mass"></param>
+            <param name="isFood"></param>
+        </member>
+        <member name="P:Model.Cube.Width">
+            <summary>
+            getter and setter methods
+            </summary>
+        </member>
+        <member name="P:Model.Cube.Top">
+            <summary>
+            Get location of top of cube
+            </summary>
+        </member>
+        <member name="P:Model.Cube.Right">
+            <summary>
+            Right side of cube location
+            </summary>
+        </member>
+        <member name="P:Model.Cube.Left">
+            <summary>
+            Left side of cube location
+            </summary>
+        </member>
+        <member name="P:Model.Cube.Bottom">
+            <summary>
+            Bottom side of cube
+            </summary>
+        </member>
+        <member name="P:Model.Cube.ID">
+            <summary>
+            Cube ID
+            </summary>
+        </member>
+        <member name="P:Model.Cube.XPos">
+            <summary>
+            X pos of cube center
+            </summary>
+        </member>
+        <member name="P:Model.Cube.YPos">
+            <summary>
+            Y pos of cube center
+            </summary>
+        </member>
+        <member name="P:Model.Cube.CubeColor">
+            <summary>
+            Represents color of cube in rgb
+            </summary>
+        </member>
+        <member name="P:Model.Cube.CubeName">
+            <summary>
+            Name of the cube
+            </summary>
+        </member>
+        <member name="P:Model.Cube.CubeMass">
+            <summary>
+            Mass (volume) of the cube
+            </summary>
+        </member>
+        <member name="P:Model.Cube.IsFood">
+            <summary>
+            Tracks if the cube is a food
+            </summary>
+        </member>
+        <member name="M:Model.Cube.changeDimensions">
+            <summary>
+            helper method used to change dimensions of cube when mass or position are changed
+            </summary>
+        </member>
+        <member name="T:Model.World">
+            <summary>
+            World class which holds all the cubes, and any other necessary data about the world
+            </summary>
+        </member>
+        <member name="M:Model.World.#ctor">
+            <summary>
+            2 arg constructor that takes in a width and height of the world and sets them, then creates a dictionary
+            </summary>
+            <param name="worldWidth"></param>
+            <param name="worldHeight"></param>
+        </member>
+        <member name="P:Model.World.WorldWidth">
+            <summary>
+            Stores the world width
+            </summary>
+        </member>
+        <member name="P:Model.World.WorldHeight">
+            <summary>
+            Stores the world height
+            </summary>
+        </member>
+        <member name="P:Model.World.WorldMap">
+            <summary>
+            Getter and setter for the worldMap
+            </summary>
+        </member>
+    </members>
+</doc>
